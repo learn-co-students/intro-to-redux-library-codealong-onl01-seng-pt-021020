@@ -15,6 +15,9 @@ class App extends Component {
 			</div>
 		);
 	}
+	// We have a button with an onClick event listener pointed to this.handleOnClick. 
+	// When this.handleOnClick is invoked, it calls a function, this.props.increaseCount
+	// this.props.items.length is a prop created from our Redux store; 
 }
 
 const mapStateToProps = state => {
