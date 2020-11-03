@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 import './App.css';
 
 class App extends Component {
-	handleOnClick = event => {
+	handleAddClick = event => {
 		this.props.increaseCount();
 	};
 
 	render() {
 		return (
 			<div className="App">
-				<button onClick={this.handleOnClick}>Click</button>
+				<button onClick={this.handleAddClick}>Add</button>
 				<p>{this.props.items.length}</p>
 			</div>
 		);
